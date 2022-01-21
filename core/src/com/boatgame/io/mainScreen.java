@@ -17,7 +17,7 @@ public class mainScreen implements Screen {
         this.game = game;
         x = 0;
         y = 0;
-        img = new Texture("d1136ecc5c03bd4e68280914d4808090.jpg");
+        img = new Texture("badlogic.jpg");
     }
 
     @Override
