@@ -12,31 +12,31 @@ let render_projects = (slug) => {
     let projects_obj = [
         {
             image: 'assets/images/req.png',
-            link: 'https://docs.google.com/document/d/1XHli_diU2fri4zEnQpxF8y_nsGBRHx7-pwsoUEA01Us/edit?usp=sharing',
+            link: 'assets/files/Req1.pdf',
             title: 'Requirements',
             categories: ['featured']
         },
         {
             image: 'assets/images/arc.png',
-            link: 'https://docs.google.com/document/d/1VtL70uEjBAQ0sHfre9gGbwBtI6AfkZzUzEHVl4hB9DI/edit?usp=sharing',
+            link: 'assets/files/Arch1.pdf',
             title: 'Architecture',
             categories: ['featured']
         },
         {
             image: 'assets/images/msp.png',
-            link: 'https://docs.google.com/document/d/1cDILTMadFAJIbVxc55oMwYDuKVyJ_9xFlI5oCatXKD8/edit?usp=sharing',
+            link: 'assets/files/Plan1.pdf',
             title: 'Method selection and planning',
             categories: ['featured']
         },
         {
             image: 'assets/images/ram.png',
-            link: 'https://docs.google.com/document/d/11aKFHsqQK08qniiyHAod7t0umMHxTGKQTSPi2g4BFtk/edit?usp=sharing',
+            link: 'assets/files/Risk1.pdf',
             title: 'Risk assessment and mitigation',
             categories: ['featured']
         },
         {
             image: 'assets/images/imp.png',
-            link: 'https://docs.google.com/document/d/1_Hful9aHe6FONb6hTt8DWEwR5m0Hl_-jW4CG2d00VOo/edit?usp=sharing',
+            link: 'assets/files/Impl1.pdf',
             title: 'Implementation',
             categories: ['featured']
         },
