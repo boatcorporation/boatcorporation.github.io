@@ -40,13 +40,19 @@ let render_projects = (slug) => {
             title: 'Implementation',
             categories: ['featured']
         },
-  
+        {
+            image: 'assets/images/imp.png',
+            link: 'assets/files/Impl1.pdf',
+            title: 'Implementation',
+            categories: ['featured']
+        },
+
     ]
 
     let projects = [];
     if(slug == 'all') {
         projects = projects_obj.map(project_mapper);
-    } 
+    }
     else {
         projects = projects_obj.filter(project => project.categories.includes(slug)).map(project_mapper);
     }
@@ -56,20 +62,20 @@ let render_projects = (slug) => {
 let project_mapper = project => {
     return `
         <div class="wrapper">
-                
+
             <div class="card radius shadowDepth1">
 
-                ${project.image ? 
+                ${project.image ?
                     `<div class="card__image border-tlr-radius">
                         <a href="${project.link}">
                             <img src="${project.image}" alt="image" id="project-image" class="border-tlr-radius">
                         </a>
-                    </div>`           
+                    </div>`
                 : ''}
 
-        
+
                 <div class="card__content card__padding">
-        
+
                     <article class="card__article">
                         <h2><a href="${project.link}">${project.title}</a></h2>
                             </article>
