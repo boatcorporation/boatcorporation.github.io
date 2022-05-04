@@ -40,12 +40,6 @@ let render_projects = (slug) => {
             title: 'Implementation',
             categories: ['featured']
         },
-        {
-            image: 'assets/images/test.png',
-            link: 'assets/files/test.pdf',
-            title: 'test',
-            categories: ['featured']
-        },
 
     ]
 
